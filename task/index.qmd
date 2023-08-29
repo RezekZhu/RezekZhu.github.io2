@@ -1,0 +1,9 @@
+---
+title: "myblog"
+listing:
+  contents: tt
+  sort: "date desc"
+  type: default
+  categories: true
+---
+

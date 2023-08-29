@@ -1,0 +1,14 @@
+---
+title: Photography Gallery
+---
+More pics are coming soon.
+
+# Gallery in Cal
+
+## Language of the pool
+
+Appreciate the beauty of the world from another perspective.
+
+![](Language-of-pool.jpg)
+
+```

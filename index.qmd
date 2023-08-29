@@ -1,0 +1,61 @@
+---
+title: "Mike Zhu"
+about:
+  template: jolla
+  id: about-block
+  image: "Zhu.jpg"
+  links:
+    - icon: envelope
+      aria-label: email
+      href: "mailto:rezek_zhu@outlook.com"  
+    - icon: twitter
+      href: https://twitter.com/yuhao_rezek
+    - icon: instagram
+      href: https://www.instagram.com/rezek_zhu
+---
+<style>
+  body {
+  background-image: url("https://cdn.discordapp.com/attachments/1145568898033389571/1145954141953335376/whole-brain3.jpg");
+  
+  background-repeat: no-repeat;
+  /*background-position: center center;*/
+  /*background-attachment: fixed;*/
+}
+  
+</style>
+
+
+```{=html}
+<div  style="margin: 150px; text-align: center;">
+<a class="btn btn-primary" href="https://twitter.com/yuhao_rezek" role="button" target="_blank" style="padding: 15px 30px;background:transparent; color:transparent; border: transparent">
+<img src="https://cdn.discordapp.com/attachments/1145568898033389571/1146113814698410018/box.gif">
+</a>
+</div>
+```
+
+::: {#about-block}
+<center>I try to understand the 'imperfection' of humankind and how we play with uncertainty.</center>
+
+
+<center>On my way to be a scientist.</center>
+:::
+
+:::{.column-page}
+
+:::
+
+
+# Welcome to my website!
+
+This website will be completed in a few days, consisting of the following three parts:
+
+- Psychology (Science, the left half brain above)
+- Photography (Art, the right half brain) 
+- My life philosophy (Thoughts, the yellow question box in the center, a concept from [Super Mario](https://www.ted.com/talks/mark_rober_the_super_mario_effect_tricking_your_brain_into_learning_more)).
+
+
+
+Currently almost all the links are replaced with a 404 page or my twitter page. I'm not gonna call it 'X' as Elon Musk wishes :( 
+
+Btw,this cover picture is made by myself :D I loveee it!! Story behind it will also be posted in a few days.
+

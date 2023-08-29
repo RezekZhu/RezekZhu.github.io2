@@ -1,0 +1,83 @@
+# This file controls the settings for your Quarto template from www.marvinschmitt.com
+
+# website settings
+website:
+  title: "Mike Zhu"                                # Your name
+  description: "Think beyond the box."   # A brief slogan (optional)
+  image: img/my_image.jpg
+  
+  favicon: img/favicon.png
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    logo: /img/logo.png
+    
+    # your sub-pages
+    left:
+      - text: "Scientific Ideas"
+        href: ideas/index.qmd
+      - text: "Projects"
+        menu:
+          - text: DAF 
+            href: https://twitter.com/yuhao_rezek
+          - text: OWL
+            url:  https://twitter.com/yuhao_rezek
+      - text: "My Philosophy"
+        href: My Philosophy/index.qmd
+      - text: "Photography Gallery"
+        href: Gallery/index.qmd
+      - text: "CV"
+        href: CV/index.qmd
+    
+    # your social media handles
+    right:
+      - icon: envelope
+        aria-label: email
+        href: "mailto:rezek_zhu@outlook.com"  
+      - icon: twitter
+        href: https://twitter.com/yuhao_rezek
+      - icon: instagram
+        href: https://www.instagram.com/rezek_zhu/
+      #- icon: researchgate
+       # href: 
+  
+  
+
+# Don't touch unless you know what you are doing :) ------------
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: |
+      <span class="faux-block"><a href="https://twitter.com/yuhao_rezek">Facts about me</a></span>
+    center: |
+      <span class="faux-block"><a href="https://twitter.com/yuhao_rezek">Why did I set up this website?</a></span>
+    right: |
+      <span class="faux-block"><a href="https://twitter.com/yuhao_rezek">Get a random idea of mine</a></span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.1em
+    theme: 
+      light: cosmo  #[cosmo , html/styles.scss]
+      dark: darkly #[darkly , html/styles.scss]
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
